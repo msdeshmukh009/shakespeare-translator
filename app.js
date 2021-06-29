@@ -1,7 +1,7 @@
 var button = document.querySelector("#btn-translate");
 var input = document.querySelector("#input-txt");
 var output = document.querySelector("#output-txt");
-var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var serverUrl = "https://api.funtranslations.com/translate/shakespeare.json"
 
 function constructUrl(text){
     var url = serverUrl+"?"+"text="+text
