@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+body{
+    font-family: 'Old Standard TT', serif;
+    margin: 0rem;
+}
+:root{
+    --primary-color:#D6D2C4;
+    
+}
+.contents{
+    margin-left: 15rem ;
+}
+/* heading */
+header{
+    
+    background-color: var(--primary-color);
+    height: 5rem;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+.hero-img{
+    float: left;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 80%;
+    margin-left: 0rem;
+}
+.hero-heading{
+    text-align: center;
+    font-weight: bolder; 
+}
+/* input */
+#input-txt{
+    display: inline;
+    height: 20rem;
+    width: 20rem;
+    font: inherit
+    
+}
+/* button */
+#btn-translate{
+   display: inline; 
+text-decoration: none;
+background-color: var(--primary-color);
+width: 14rem;
+padding: 0.5rem;
+margin-left: 36rem;
+
+border: none;
+}
+/* output */
+#output-txt{
+    display:inline-flex;
+    float: right;
+    height: 20rem;
+    width: 20rem;
+    margin-right:15rem;
+    margin-left: 10rem;
+    border: solid black 1px;
+    font: inherit;
+
+}
+/* footer */
+footer{
+    margin-top: 1.9rem;
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+.footer-txt{
+    margin: auto;
+    width: 38rem;
+    text-align: center;
+}
+div{
+    display: inline;
+    text-align: center;
+    margin-left: 3rem;
+}
