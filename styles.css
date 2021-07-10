@@ -1,78 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+* {
+    box-sizing: border-box;
+}
 body{
     font-family: 'Old Standard TT', serif;
     margin: 0rem;
 }
 :root{
     --primary-color:#D6D2C4;
-    
+    --width:600px;
 }
-.contents{
-    margin-left: 15rem ;
-}
-/* heading */
-header{
-    
-    background-color: var(--primary-color);
-    height: 5rem;
+
+/* nav-bar */
+nav{
+    font-size: 2rem;
     padding: 1rem;
-    margin-bottom: 0.5rem;
+    background-color: var(--primary-color);
+    text-align: center;
 }
 .hero-img{
-    float: left;
-    width: 5rem;
-    height: 5rem;
-    border-radius: 80%;
-    margin-left: 0rem;
+    width:40px;
+    border-radius: 50%;
+   
 }
-.hero-heading{
-    text-align: center;
-    font-weight: bolder; 
+/* main */
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width);
 }
 /* input */
 #input-txt{
-    display: inline;
-    height: 20rem;
-    width: 20rem;
-    font: inherit
-    
+    box-sizing: border-box;
+    display: block;
+    font-size: large;
+    width: 100%; 
+    min-height: 20vh;
+    font-family: inherit;
+    margin-top: 2rem;
 }
 /* button */
 #btn-translate{
-   display: inline; 
-text-decoration: none;
-background-color: var(--primary-color);
-width: 14rem;
-padding: 0.5rem;
-margin-left: 36rem;
-
-border: none;
+    background-color: var(--primary-color);
+    color: black;
+    font: inherit;
+    font-size: large;
+    padding: 0.5rem 0.5rem;
+    border-color: white;
+    /* border: none; */
+    border-radius: 12px;
+    cursor: pointer;
 }
 /* output */
-#output-txt{
-    display:inline-flex;
-    float: right;
-    height: 20rem;
-    width: 20rem;
-    margin-right:15rem;
-    margin-left: 10rem;
-    border: solid black 1px;
-    font: inherit;
 
+#output-txt{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    padding: 1rem;
+    font-size: large;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
 }
 /* footer */
 footer{
-    margin-top: 1.9rem;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 0.75rem;
     background-color: var(--primary-color);
-    padding: 1rem;
+    text-align: center;
 }
 .footer-txt{
+    max-width:var(--width);
     margin: auto;
-    width: 38rem;
-    text-align: center;
-}
-div{
-    display: inline;
-    text-align: center;
-    margin-left: 3rem;
+    
 }
